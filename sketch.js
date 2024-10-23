@@ -3,6 +3,7 @@ let img;
 function setup() {
   img = loadImage("pearl.png");
   createCanvas(1280, 720);
+  
 }
 
 function draw() {
@@ -10,4 +11,10 @@ function draw() {
   if (mouseIsPressed === true) {
     console.log(mouseX, mouseY);
   }
+  
+  fill(245, 212, 194);
+  noStroke();
+  triangle(572, 343, 617, 335, 567, 316);
+  
+  
 }
